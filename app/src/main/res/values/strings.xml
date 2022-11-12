@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SINGAPURA RESI</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_baru"></string>
+    <string name="title_activity_lihat"></string>
+    <string name="title_activity_ubah"></string>
+    <string name="judulcs"><u>INFO FREELANCER :</u></string>
+    <string name="juduldatatrx"><u>DATA TRANSAKSI :</u></string>
+    <string name="juduleresi"><u>e-RESI PELANGGAN</u></string>
+
+
+</resources>

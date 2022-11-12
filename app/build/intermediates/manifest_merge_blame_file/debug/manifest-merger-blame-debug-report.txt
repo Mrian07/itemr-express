@@ -1,0 +1,143 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fandy.aplikasibiodata"
+4    android:versionCode="3"
+5    android:versionName="3.17" >
+6
+7    <uses-sdk
+7-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:12:5-14:41
+8        android:minSdkVersion="22"
+8-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:13:9-35
+9        android:targetSdkVersion="31" />
+9-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:14:9-38
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:7:5-81
+11-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:7:22-78
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:8:5-67
+12-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:8:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:9:5-79
+13-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:9:22-76
+14    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+14-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:10:5-71
+14-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:10:22-68
+15
+16    <application
+16-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:16:5-55:19
+17        android:allowBackup="true"
+17-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:17:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.3.0] /Users/mrian07/.gradle/caches/transforms-2/files-2.1/944f35c2daa8aece0e09b60e0e438fd5/core-1.3.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@drawable/ic_launcher"
+20-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:18:9-45
+21        android:label="@string/app_name"
+21-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:19:9-41
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:20:9-40
+24        <activity
+24-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:21:9-30:20
+25            android:name="com.fandy.aplikasibiodata.LoadingActivity"
+25-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:22:13-69
+26            android:exported="true"
+26-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:24:13-36
+27            android:label="@string/app_name" >
+27-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:23:13-45
+28            <intent-filter>
+28-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:25:13-29:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:26:17-69
+29-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:26:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:28:17-77
+31-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:28:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:31:9-34:20
+35            android:name="com.fandy.aplikasibiodata.BaruActivity"
+35-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:32:13-66
+36            android:label="@string/title_activity_baru" >
+36-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:33:13-56
+37        </activity>
+38        <activity
+38-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:35:9-38:20
+39            android:name="com.fandy.aplikasibiodata.TambahActivity"
+39-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:36:13-68
+40            android:label="@string/title_activity_lihat" >
+40-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:37:13-57
+41        </activity>
+42        <activity
+42-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:39:9-42:20
+43            android:name="com.fandy.aplikasibiodata.UbahActivity"
+43-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:40:13-66
+44            android:label="@string/title_activity_ubah" >
+44-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:41:13-56
+45        </activity>
+46        <!-- <activity -->
+47        <!-- android:name="com.fandy.aplikasibiodata.PengaturanActivity" -->
+48        <!-- android:label="@string/title_activity_ubah" > -->
+49        <!-- </activity> -->
+50        <activity
+50-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:47:9-50:20
+51            android:name="com.fandy.aplikasibiodata.CetakActivity"
+51-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:48:13-67
+52            android:label="@string/title_activity_ubah" >
+52-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:49:13-56
+53        </activity>
+54
+55        <meta-data
+55-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:52:9-54:69
+56            android:name="com.google.android.gms.version"
+56-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:53:13-58
+57            android:value="@integer/google_play_services_version" />
+57-->/Users/mrian07/PROJECT/Souce Code Resi ITM Express V.3.17/itm-express3/app/src/main/AndroidManifest.xml:54:13-66
+58
+59        <activity
+59-->[pub.devrel:easypermissions:3.0.0] /Users/mrian07/.gradle/caches/transforms-2/files-2.1/1923387912b0c585cb32da89326ad9e3/easypermissions-3.0.0/AndroidManifest.xml:12:9-16:66
+60            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+60-->[pub.devrel:easypermissions:3.0.0] /Users/mrian07/.gradle/caches/transforms-2/files-2.1/1923387912b0c585cb32da89326ad9e3/easypermissions-3.0.0/AndroidManifest.xml:13:13-86
+61            android:exported="false"
+61-->[pub.devrel:easypermissions:3.0.0] /Users/mrian07/.gradle/caches/transforms-2/files-2.1/1923387912b0c585cb32da89326ad9e3/easypermissions-3.0.0/AndroidManifest.xml:14:13-37
+62            android:label=""
+62-->[pub.devrel:easypermissions:3.0.0] /Users/mrian07/.gradle/caches/transforms-2/files-2.1/1923387912b0c585cb32da89326ad9e3/easypermissions-3.0.0/AndroidManifest.xml:15:13-29
+63            android:theme="@style/EasyPermissions.Transparent" />
+63-->[pub.devrel:easypermissions:3.0.0] /Users/mrian07/.gradle/caches/transforms-2/files-2.1/1923387912b0c585cb32da89326ad9e3/easypermissions-3.0.0/AndroidManifest.xml:16:13-63
+64        <activity
+64-->[com.google.android.gms:play-services-auth:16.0.1] /Users/mrian07/.gradle/caches/transforms-2/files-2.1/a5433966d1e5f571a7504ece594abeff/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+65            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+65-->[com.google.android.gms:play-services-auth:16.0.1] /Users/mrian07/.gradle/caches/transforms-2/files-2.1/a5433966d1e5f571a7504ece594abeff/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+66            android:excludeFromRecents="true"
+66-->[com.google.android.gms:play-services-auth:16.0.1] /Users/mrian07/.gradle/caches/transforms-2/files-2.1/a5433966d1e5f571a7504ece594abeff/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+67            android:exported="false"
+67-->[com.google.android.gms:play-services-auth:16.0.1] /Users/mrian07/.gradle/caches/transforms-2/files-2.1/a5433966d1e5f571a7504ece594abeff/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.google.android.gms:play-services-auth:16.0.1] /Users/mrian07/.gradle/caches/transforms-2/files-2.1/a5433966d1e5f571a7504ece594abeff/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+69        <!--
+70            Service handling Google Sign-In user revocation. For apps that do not integrate with
+71            Google Sign-In, this service will never be started.
+72        -->
+73        <service
+73-->[com.google.android.gms:play-services-auth:16.0.1] /Users/mrian07/.gradle/caches/transforms-2/files-2.1/a5433966d1e5f571a7504ece594abeff/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+74            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+74-->[com.google.android.gms:play-services-auth:16.0.1] /Users/mrian07/.gradle/caches/transforms-2/files-2.1/a5433966d1e5f571a7504ece594abeff/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+75            android:exported="true"
+75-->[com.google.android.gms:play-services-auth:16.0.1] /Users/mrian07/.gradle/caches/transforms-2/files-2.1/a5433966d1e5f571a7504ece594abeff/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+76            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+76-->[com.google.android.gms:play-services-auth:16.0.1] /Users/mrian07/.gradle/caches/transforms-2/files-2.1/a5433966d1e5f571a7504ece594abeff/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+77
+78        <activity
+78-->[com.google.android.gms:play-services-base:16.0.1] /Users/mrian07/.gradle/caches/transforms-2/files-2.1/f7ba85a33e3e18d402af146949ec6840/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+79            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+79-->[com.google.android.gms:play-services-base:16.0.1] /Users/mrian07/.gradle/caches/transforms-2/files-2.1/f7ba85a33e3e18d402af146949ec6840/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+80            android:exported="false"
+80-->[com.google.android.gms:play-services-base:16.0.1] /Users/mrian07/.gradle/caches/transforms-2/files-2.1/f7ba85a33e3e18d402af146949ec6840/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+81            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+81-->[com.google.android.gms:play-services-base:16.0.1] /Users/mrian07/.gradle/caches/transforms-2/files-2.1/f7ba85a33e3e18d402af146949ec6840/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+82    </application>
+83
+84</manifest>
